@@ -22,17 +22,17 @@ $apps = @(
     "Microsoft.MicrosoftOfficeHub"
     "Microsoft.MicrosoftSolitaireCollection"
     #"Microsoft.MicrosoftStickyNotes"
-    "Microsoft.Office.OneNote"
+    #"Microsoft.Office.OneNote"
     #"Microsoft.OneConnect"
-    "Microsoft.People"
-    "Microsoft.SkypeApp"
+    #"Microsoft.People"
+    #"Microsoft.SkypeApp"
     #"Microsoft.Windows.Photos"
-    "Microsoft.WindowsAlarms"
+    #"Microsoft.WindowsAlarms"
     #"Microsoft.WindowsCalculator"
-    "Microsoft.WindowsCamera"
-    "Microsoft.WindowsMaps"
-    "Microsoft.WindowsPhone"
-    "Microsoft.WindowsSoundRecorder"
+    #"Microsoft.WindowsCamera"
+    #"Microsoft.WindowsMaps"
+    #"Microsoft.WindowsPhone"
+    #"Microsoft.WindowsSoundRecorder"
     #"Microsoft.WindowsStore"
     "Microsoft.XboxApp"
     "Microsoft.ZuneMusic"
@@ -41,11 +41,11 @@ $apps = @(
     "Microsoft.MinecraftUWP"
     "Microsoft.MicrosoftPowerBIForWindows"
     "Microsoft.NetworkSpeedTest"
-    
+
     # Threshold 2 apps
-    "Microsoft.CommsPhone"
-    "Microsoft.ConnectivityStore"
-    "Microsoft.Messaging"
+    #"Microsoft.CommsPhone"
+    #"Microsoft.ConnectivityStore"
+    #"Microsoft.Messaging"
     "Microsoft.Office.Sway"
     "Microsoft.OneConnect"
     "Microsoft.WindowsFeedbackHub"
@@ -73,7 +73,7 @@ $apps = @(
     "D52A8D61.FarmVille2CountryEscape"
     "TuneIn.TuneInRadio"
     "GAMELOFTSA.Asphalt8Airborne"
-    #"TheNewYorkTimes.NYTCrossword"
+    "TheNewYorkTimes.NYTCrossword"
     "DB6EA5DB.CyberLinkMediaSuiteEssentials"
     "Facebook.Facebook"
     "flaregamesGmbH.RoyalRevolt2"
@@ -86,16 +86,6 @@ $apps = @(
     "D5EA27B7.Duolingo-LearnLanguagesforFree"
     "46928bounde.EclipseManager"
     "ActiproSoftwareLLC.562882FEEB491" # next one is for the Code Writer from Actipro Software LLC
-
-
-    # apps which cannot be removed using Remove-AppxPackage
-    #"Microsoft.BioEnrollment"
-    #"Microsoft.MicrosoftEdge"
-    #"Microsoft.Windows.Cortana"
-    #"Microsoft.WindowsFeedback"
-    #"Microsoft.XboxGameCallableUI"
-    #"Microsoft.XboxIdentityProvider"
-    #"Windows.ContactSupport"
 )
 
 foreach ($app in $apps) {
